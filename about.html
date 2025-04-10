@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jakuat Tower - Discover Our World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (Same as index.html) -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-semibold text-gray-800">
+                        <i class="fas fa-building mr-2"></i>
+                        Jakuat Tower
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Home</a>
+                    <a href="#business" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Business</a>
+                    <a href="#travel" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Travel</a>
+                    <a href="#lifestyle" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Lifestyle</a>
+                    <a href="#opportunities" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">Opportunities</a>
+                    <a href="#about" class="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md font-medium">About Us</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-800 hover:text-blue-600">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Quote Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">"Welcome to a World of Possibilities"</h1>
+            <p class="text-xl md:text-2xl italic">Where luxury meets opportunity, and dreams touch the sky.</p>
+        </div>
+    </section>
+
+    <!-- About Company Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">About Jakuat Tower</h2>
+                    <p class="text-gray-600 mb-4">
+                        Jakuat Tower stands as a symbol of excellence and innovation in the heart of the city. Our prestigious establishment combines luxury, business opportunities, and lifestyle experiences to create an unparalleled environment for success and growth.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        With state-of-the-art facilities and a commitment to excellence, we provide a platform for businesses to thrive, travelers to indulge, and individuals to embrace new opportunities.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="https://images.pexels.com/photos/1668928/pexels-photo-1668928.jpeg" 
+                         alt="Modern Office Interior" 
+                         class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Categories Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Business Section -->
+            <div id="business" class="mb-20">
+                <h2 class="text-3xl font-bold mb-12 text-center">Business Opportunities</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" 
+                         alt="Business Meeting" 
+                         class="rounded-lg shadow-lg h-96 w-full object-cover">
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-2xl font-semibold mb-4">Premium Office Spaces</h3>
+                        <p class="text-gray-600">
+                            Experience the pinnacle of business excellence with our premium office spaces. From startups to established corporations, we provide the perfect environment for your business to flourish.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>State-of-the-art facilities</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Flexible workspace solutions</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Professional networking opportunities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Travel Section -->
+            <div id="travel" class="mb-20">
+                <h2 class="text-3xl font-bold mb-12 text-center">Travel Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h3 class="text-2xl font-semibold mb-4">Luxury Travel Experience</h3>
+                        <p class="text-gray-600">
+                            Elevate your travel experience with our premium services. Whether for business or leisure, we ensure every journey is memorable and comfortable.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Executive transportation</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Luxury accommodations</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Concierge services</li>
+                        </ul>
+                    </div>
+                    <img src="https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg" 
+                         alt="Luxury Travel" 
+                         class="rounded-lg shadow-lg h-96 w-full object-cover order-1 md:order-2">
+                </div>
+            </div>
+
+            <!-- Lifestyle Section -->
+            <div id="lifestyle" class="mb-20">
+                <h2 class="text-3xl font-bold mb-12 text-center">Lifestyle Opportunities</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <img src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg" 
+                         alt="Luxury Lifestyle" 
+                         class="rounded-lg shadow-lg h-96 w-full object-cover">
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-2xl font-semibold mb-4">Premium Lifestyle</h3>
+                        <p class="text-gray-600">
+                            Immerse yourself in a world of luxury and comfort. Our lifestyle offerings are designed to provide the perfect balance of work and leisure.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Exclusive amenities</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Wellness facilities</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Entertainment options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Opportunities Section -->
+            <div id="opportunities">
+                <h2 class="text-3xl font-bold mb-12 text-center">Career Opportunities</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center order-2 md:order-1">
+                        <h3 class="text-2xl font-semibold mb-4">Growth & Development</h3>
+                        <p class="text-gray-600">
+                            Join our dynamic team and be part of something extraordinary. We offer diverse career opportunities and professional growth paths.
+                        </p>
+                        <ul class="mt-4 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Professional development</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Competitive benefits</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i>Global exposure</li>
+                        </ul>
+                    </div>
+                    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" 
+                         alt="Career Opportunities" 
+                         class="rounded-lg shadow-lg h-96 w-full object-cover order-1 md:order-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-semibold">Jakuat Tower</h3>
+                    <p class="text-gray-400">Where Excellence Meets Opportunity</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
